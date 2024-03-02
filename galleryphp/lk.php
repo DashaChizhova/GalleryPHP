@@ -1,7 +1,7 @@
 <?php 
 session_start();
 include('include/db_connect.php');
- $user = isset($_SESSION['user']['id']); 
+ $user = $_SESSION['user']['id']; 
 ?>
 <!DOCTYPE html>
 <html lang="en">
